@@ -8,7 +8,7 @@ dist: trusty
 script:
   - go version
   - make test
-  - make push
+  - make build
   
 services:
   - docker
