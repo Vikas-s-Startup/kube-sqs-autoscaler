@@ -8,7 +8,11 @@ dist: trusty
 script:
   - go version
   - make test
-
+  - make push
+  
+services:
+  - docker
+ 
 branches:
   only:
     - master
